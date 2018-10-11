@@ -1,0 +1,17 @@
+<h2>Crear pelicula</h2>
+<div>
+  <div class="form-group">
+  <label for="name">nombre</label>
+  <input [(ngModel)]="movie.name" type="text" class="form-control" id="name" placeholder="ingrsar nombre">
+</div>
+<div class="form-group">
+  <label for="username">User name</label>
+  <input  [(ngModel)]="movie.username" type="text" class="form-control" id="username" placeholder="ingresar username">
+</div>
+<div class="form-group">
+  <label for="email">genero</label>
+  <input [(ngModel)]="movie.email" type="text" class="form-control" id="email" placeholder="ingresar email">
+</div>
+    <button (click)="saveMovie()" class="btn btn-primary btn-block">Guardar</button>
+  </div>
+  <hr/>

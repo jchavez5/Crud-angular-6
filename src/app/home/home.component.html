@@ -1,0 +1,23 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Name</th>
+        <th scope="col">UserName</th>
+        <th scope="col">Email</th>        
+        <th scope="col">Phone</th>
+        <th scope="col">Website</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let movie of movies">
+        <th >{{movie.id}}</th>
+        <td>{{movie.name}}</td>
+        <td>{{movie.username}}</td>
+        <td>{{movie.email}}</td>
+        <td>{{movie.phone}}</td>
+        <td>{{movie.website}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
